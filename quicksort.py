@@ -1,4 +1,4 @@
-#O(NlongN)
+#O(NlogN)
 def quicksort(data,left,right):
     if left >= right:
         return 
