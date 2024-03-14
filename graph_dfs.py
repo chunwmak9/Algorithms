@@ -38,8 +38,8 @@ if __name__ == "__main__":
         a,b,c = weighted_path[i][0],weighted_path[i][1],weighted_path[i][2]
         e[a][b] = c #Unidirection    
     print("The Adjacency Matrix of Graph:\n{0}".format(e)) 
-    visited[1] = 1
-    graph_dfs(1,0)
+    visited[1] = 1 #Set the initial first city to be invaild for visiting
+    graph_dfs(1,0) 
     print("The shortest path to city {0} is {1}.".format(map_size - 1,min1)) #The shortest path for traversal of graph
         
         
