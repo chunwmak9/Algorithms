@@ -36,7 +36,8 @@ if __name__ == "__main__":
     for i in range(len(weighted_path)):
         #a, b, c = map(int, input().split(' '))
         a,b,c = weighted_path[i][0],weighted_path[i][1],weighted_path[i][2]
-        e[a][b] = c #Unidirection    
+        e[a][b] = c #Unidirectional edge
+        #e[b][a] = c #****Enable this line for Bi-directional edge in graph 
     print("The Adjacency Matrix of Graph:\n{0}".format(e)) 
     visited[1] = 1 #Set the initial first city to be invaild for visiting
     graph_dfs(1,0) 
