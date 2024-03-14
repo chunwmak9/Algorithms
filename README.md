@@ -1,2 +1,2 @@
-# Algorithms_2022
+# Algorithms
 It is algorithmic library containing quick implementation of different algorithms.
