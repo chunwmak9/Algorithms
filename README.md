@@ -6,7 +6,7 @@ The following algorithms will be covered:
 3. ....
 4. Graph Concept
    1. Isomorphism / Isomorphic
-   2. Directional vs Non-Directional
+   2. Uni-directional vs Bi-directional
    3. Weight
    4. Naming and Symbol
    5. Graph Data Structure
